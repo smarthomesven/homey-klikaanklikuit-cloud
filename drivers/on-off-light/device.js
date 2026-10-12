@@ -3,7 +3,7 @@
 const Homey = require('homey');
 
 const FN_ONLINE = 0;
-const FN_ONOFF = 3; // index into functions[] (and the `function` field of a command) for the plug
+const FN_ONOFF = 3;
 
 class PlugDevice extends Homey.Device {
   async onInit() {
@@ -12,7 +12,7 @@ class PlugDevice extends Homey.Device {
 
     this.registerCapabilityListener('onoff', async (value) => {
       await api.setFunction(homeId, id, FN_ONOFF, value ? 1 : 0);
-      api.poll(); // the status_version moves after a command, so refresh right away
+      api.poll();
     });
 
     this._unsubscribe = api.subscribe(homeId, id, async (functions) => {
