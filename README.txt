@@ -1,0 +1,1 @@
+Your smart home, always ready. Connect your KlikAanKlikUit devices via the ICS, Z1 or Smart Bridge and use them in your Flows. If any device that you use is missing, please let me know in the forum topic.

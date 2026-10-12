@@ -1,0 +1,34 @@
+{
+  "id": "com.trustsmartcloud2",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "KlikAanKlikUit ICS, Bridge & Z1"
+  },
+  "description": {
+    "en": "Your personal smart home"
+  },
+  "category": [
+    "appliances"
+  ],
+  "source": "https://github.com/smarthomesven/homey-klikaanklikuit-cloud/",
+  "bugs":{
+    "url": "https://github.com/smarthomesven/homey-klikaanklikuit-cloud/issues"
+  },
+  "brandColor": "#FF3C39",
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Sven Serlier",
+    "email": "sven@dypodex.com"
+  }
+}
