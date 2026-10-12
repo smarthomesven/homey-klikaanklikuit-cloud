@@ -1,6 +1,6 @@
 {
   "id": "com.trustsmartcloud2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "runtime": "nodejs",
@@ -17,7 +17,7 @@
     "appliances"
   ],
   "source": "https://github.com/smarthomesven/homey-klikaanklikuit-cloud/",
-  "bugs":{
+  "bugs": {
     "url": "https://github.com/smarthomesven/homey-klikaanklikuit-cloud/issues"
   },
   "brandColor": "#FF3C39",
